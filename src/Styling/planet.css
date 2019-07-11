@@ -1,0 +1,338 @@
+
+/* .container{
+    background-image: url('https://www.solarsystemscope.com/textures/download/8k_stars.jpg')
+} */
+
+.tab-pane {
+    position: relative;
+}
+
+.sun{
+    position: absolute; 
+    cursor: pointer;
+    top: 1000px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_sun.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    -webkit-box-shadow: 0 0 1000px yellow;
+        box-shadow: 0 0 1000px yellow;
+    animation: spin 20s linear infinite;
+}
+
+
+.name {
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.name2 {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.mercury{
+    position: absolute;
+    top: 700px;
+    bottom: 0px;
+    left: 0px;
+    right: 1000px;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_mercury.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 5s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.venus{
+    position: absolute;
+    top: 700px;
+    bottom: 0px;
+    left: 0px;
+    right: 350px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_venus_surface.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 15s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.earth{
+    position: absolute;
+    top: 700px;
+    bottom: 0px;
+    left: 350px;
+    right: 0px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 15s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.mars{
+    position: absolute;
+    top:700px;
+    bottom: 0px;
+    left: 860px;
+    right: 0px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_mars.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+
+.jupiter{
+    position: absolute;
+    top: 800px;
+    bottom: 0px;
+    left: 200px;
+    right: 1200px;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_jupiter.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 30s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.saturn{
+    position: absolute;
+    top: 800px;
+    bottom: 0px;
+    left: 550px;
+    right: 0px;
+    margin: auto;
+    width: 291px;
+    height: 291px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_saturn.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 20s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.uranus{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: 250px;
+    right: 1000px;
+    margin: auto;
+    width: 254px;
+    height: 254px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_uranus.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 5s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.neptune{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: 530px;
+    right: 0px;
+    margin: auto;
+    width: 240px;
+    height: 240px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_neptune.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 20s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.pluto{
+    position: absolute;
+    top: 300px;
+    bottom: 0px;
+    left: 300px;
+    right: 1000px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-image: url('http://www.fedtrek.com/staff/omega13a/celestia/omega_galaxy/textures/medres/pluto4.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 15s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+
+.ceres{
+    position: absolute;
+    top: 300px;
+    bottom: 0px;
+    left: 670px;
+    right: 600px;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_ceres_fictional.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.moons{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: 0px;
+    right: 1000px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-image: url('https://www.solarsystemscope.com/textures/download/2k_moon.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.io{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: 0px;
+    right: 500px;
+    margin: auto;
+    width: 104px;
+    height: 104px;
+    background-image: url('https://stevealbers.net/albers/sos/jupiter/io/io_rgb_cyl.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.europa{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: -100px;
+    right: 0px;
+    margin: auto;
+    width: 89px;
+    height: 89px;
+    background-image: url('http://static.nautil.us/6503_64dcf3c521a00dbb4d2a10a27a95a9d8.png');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.ganymede{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: 350px;
+    right: 0px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Map_of_Ganymede_by_Bj%C3%B6rn_J%C3%B3nsson_and_centered_by_J_N_Squire.jpg/400px-Map_of_Ganymede_by_Bj%C3%B6rn_J%C3%B3nsson_and_centered_by_J_N_Squire.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+
+.triton{
+    position: absolute;
+    top: 500px;
+    bottom: 0px;
+    left: 800px;
+    right: 0;
+    margin: auto;
+    width: 77px;
+    height: 77px;
+    background-image: url('http://www.seasky.org/solar-system/assets/images/triton07_sk12.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px #000 inset, 0 0 20px 2px #000;
+    animation: spin 10s linear infinite;
+}
+@keyframes spin{
+    100%{background-position: 100%;}
+}
+.background{
+    background-image: url(https://www.solarsystemscope.com/textures/download/8k_stars.jpg);
+}

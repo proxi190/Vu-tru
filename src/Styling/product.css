@@ -1,0 +1,48 @@
+
+    
+    .product-header {
+        display: flex;
+        color: white;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 32px;
+        margin-left: 10%;
+        margin-right: 50px;
+        display: flex;
+        flex-flow: column;
+        width: 80%;
+    }
+    
+    .product-subheading {
+        color: turquoise;
+        font-family: 'Orbitron', sans-serif;
+        font-size: 32px;
+        margin-left: 300px;
+    }
+    
+    .product-info {
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+    }
+    
+    .product-starimag {
+        background-image: url("/assets/starsBg-wide.jpg");
+        width: 110vw;
+        margin-top: -50vh;
+        height: 150vh;
+        position: fixed;
+        opacity: 0.3;
+        z-index: -1;
+    }
+    
+    
+    
+    .product-imag {
+        width: 800px;
+        height: 350px;
+        padding-left: 10%;
+    }
+    
+    .product-flex {
+        display: flex;
+    }

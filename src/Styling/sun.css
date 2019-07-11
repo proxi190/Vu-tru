@@ -1,0 +1,43 @@
+
+.sun-header {
+    display: flex;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 64px;
+    justify-content: center;
+}
+
+.sun-subheading {
+    color: turquoise;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    margin-left: 300px;
+}
+
+.sun-info {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.sun-starimag {
+    background-image: url("/assets/starsBg-wide.jpg");
+    width: 110vw;
+    margin-top: -50vh;
+    height: 150vh;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+
+
+.sun-imag {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+.selling-choice{
+	padding: 20px 20px 0px 20px; 
+	font-size: 20px;
+}
+.selling-choice:hover {
+	opacity: 0.6;
+	cursor: pointer;
+	
+}
+/* class="image-astro-tech" */
+
+.image-astro-tech{
+	transition: all 0.2s;
+	display: flex;
+	flex-direction: column;	
+	width: calc(100%/4);
+	padding: 0px;
+	margin: 30px;
+	-webkit-box-shadow: 0 0 7px 5px rgba(68, 68, 68, 0.8);
+    -moz-box-shadow: 0 0 7px 5px rgba(68, 68, 68, 0.8);
+    box-shadow: 0 0 7px 5px rgba(68, 68, 68, 0.8)
+}
+.image-astro-tech:hover {
+	cursor: pointer;
+	transform: scale(1.01)
+}

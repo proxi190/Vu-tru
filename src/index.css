@@ -1,0 +1,19 @@
+
+.own-top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.navbar-ankor {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.navbar-ankor:hover{
+opacity: 0.8;
+text-decoration: none !important;
+}

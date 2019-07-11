@@ -1,0 +1,98 @@
+body {
+    background-color:#0E0E15;
+    padding: 0; 
+    margin: 0;
+    transition: background-color 5s;
+}
+a{
+    text-decoration: none;
+    color: turquoise;
+}
+a:hover{
+    text-decoration: none !important;
+    color: turquoise ;
+
+}
+h1{
+    margin:0;
+    padding:0;
+}
+.mainhistory-flex {
+    display: flex;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+.mainhistory-flexcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainhistory-date {
+
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+}
+
+.mainhistory-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.mainhistory-year {
+    margin-bottom: 0px;
+    color: white;
+    margin-top: -12px;
+    font-size: 54px !important;
+}
+
+.mainhistory-month {
+    color: turquoise;
+    float: right;
+    font-size: 40px;
+    color: #3a3a3a;
+    text-shadow: -1.5px -1.5px 0 white, 1.5px -1.5px 0 white, -1.5px 1.5px 0 white, 1.5px 1.5px 0 white;
+}
+
+.mainhistory-mdate {
+    color: turquoise;
+    font-size: 24px;
+    vertical-align: top;
+}
+
+.mainhistory-imag {
+    width: 150px;
+    height:150px;
+}
+
+.mainhistory-starimag {
+    background-image: url("/assets/starsBg-wide.jpg");
+    width: 110vw;
+    margin-top: -50vh;
+    height: 150vh;
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.mainhistory-learn {
+    display: inline-block;
+    border: 1.5px white solid;
+    width: fit-content;
+    padding: 3px;
+    transition: opacity 0.5s ;
+    opacity: 0;
+    color: turquoise
+}
+
+
+.mainhistory-flex:hover .mainhistory-learn{
+    opacity: 1;
+}
+
